@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.nav-list {
+  padding: 1em;
+  margin: 0 25em;
+  font-size: 26px;
+  & .list {
+    display: flex;
+    gap: 0.5em;
+    list-style: none;
+  }
+  & a {
+    text-decoration: none;
+    color: black;
+  }
+  & a:hover {
+    color: blue;
+  }
+  & .login {
+    width: 100px;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+  }
+  & .login:hover{
+    color: blueviolet;
+    cursor: pointer;
+    text-decoration: underline;
+    background-color: tomato;
+  }
+}
